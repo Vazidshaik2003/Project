@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    color: #666;
+  }
+  
+  main {
+    background-image: url('/public/image/background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 50px;
+  }
+  /* Hero section */
+
+#hero {
+  background: url('https://cdn.pixabay.com/photo/2016/03/27/22/20/leaves-1282416_960_720.jpg') center/cover no-repeat;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+
+#hero p {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+
+#hero .btn {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+/* Services section */
+
+#services {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+#services h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+#services .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  max-width: 300px;
+  text-align: center;
+}
+
+.service i {
+  font-size: 48px;
+  color: #007bff;
+  margin-bottom: 20px;
+  }
+  
+  .service h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+  }
+  
+  .service p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+  }
+  
+  /* CTA section */
+  
+  #cta {
+  background-color: #007bff;
+  padding: 60px 0;
+  }
+  
+  #cta h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #fff;
+  }
+  
+  #cta p {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.5;
+  }
+  
+  #cta .btn {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  }

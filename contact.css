@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    color: #666;
+  }
+  
+  #contact {
+    background-color: #f1f1f1;
+    padding: 60px 0;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  #contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #contact input[type="text"]:focus,
+  #contact input[type="email"]:focus,
+  #contact textarea:focus {
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  #contact textarea {
+    height: 200px;
+  }
+  
+  #contact button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background-color: #666;
+  }
+  
